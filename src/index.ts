@@ -2,7 +2,7 @@ import { registerPlugin } from '@capacitor/core';
 
 import type { EchoPluginPlugin } from './definitions';
 
-const EchoPlugin = registerPlugin<EchoPluginPlugin>('EchoPlugin', {
+const EchoPlugin = registerPlugin<EchoPluginPlugin>('Echo', {
   web: () => import('./web').then((m) => new m.EchoPluginWeb()),
 });
 

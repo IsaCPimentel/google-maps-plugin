@@ -1,3 +1,5 @@
+// Comunicação com o JavaScript/TypeScript
+
 package br.com.voacolibri.plugins.echo;
 
 import com.getcapacitor.JSObject;
@@ -6,7 +8,7 @@ import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
 
-@CapacitorPlugin(name = "EchoPlugin")
+@CapacitorPlugin(name = "Echo")
 public class EchoPluginPlugin extends Plugin {
 
     private EchoPlugin implementation = new EchoPlugin();
